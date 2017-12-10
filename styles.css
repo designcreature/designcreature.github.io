@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+    margin: 0;
+    background: #fff;
+}
+header {
+    display: grid;
+    background: url(header.jpg);
+    grid-template-columns: repeat(12, 1fr);
+    padding: 40px 0 30px 0;
+    margin: 0;
+    grid-gap: 30px;
+}
+header > * {
+    grid-column: 3 / 11;
+}
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+nav > * {
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    color: #999;
+    background: #ddd;
+}
+a.email {
+    grid-column: 6 / 8;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background: #ccc;
+    font-weight: bold;
+}
+a.email:hover, a.email:focus {
+    background: #ddd;
+}
+a.email:active {
+    background: #eee;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+#section-about,
+#section-ui-ux-work,
+#section-fine-art {
+    margin: 30px 10px;
+    padding: 15px 30px 30px;
+}
+#section-about {
+    background: #000;
+    color: #fff;
+    margin-top: 0;
+}
+#section-about h1 {
+    color: #fff;
+}
+#about-container {
+    display: grid;
+    grid-gap: 30px;
+}
+#proficiencies {
+    grid-column: 1;
+    grid-row: 1;
+    grid-column-end: 3;
+}
+#proficiencies-detail {
+    margin: 30px 0 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+#proficiencies-detail > * {
+    background: #ddd;
+    color: #000;
+}
+#employment {
+    grid-column: 1;
+    grid-row: 2;
+}
+#education {
+    grid-column: 2;
+    grid-row: 2;
+}
+#contact {
+    grid-column: 2;
+    grid-row: 3;
+}
+.project {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+}
+.project-description {
+    grid-column: span 8;
+}
+.project-role {
+    grid-column: span 4;
+}
+#section-ui-ux-work {
+    color: #000;
+}
+#section-ui-ux-work a {
+    grid-column: span 6;
+}
+#section-ui-ux-work a > img {
+    width: 100%;
+}
+.project + .project {
+    margin-top: 30px;
+}
+#section-fine-art {
+    background: #000;
+    color: #fff;
+}
+#section-fine-art h1 {
+    margin-bottom: 15px;
+}
+#section-fine-art > a {
+    width: 100%;
+}
+#section-fine-art > a > img {
+    width: 100%;
+}
