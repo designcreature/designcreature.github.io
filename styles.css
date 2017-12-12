@@ -33,31 +33,33 @@ nav > * {
 nav a {
     text-decoration: none;
     color: #000;
+    font-size: 18px;
+    font-weight: bold;
 }
 nav a:hover {
     color: rgb(255, 255, 255);
     background: #000;
 }
-a.email {
+a.button{
     grid-column: 6 / 8;
-    display: block;
     text-align: center;
     text-decoration: none;
     color: #000;
-    background: rgba(255,255,255,0.7);
+    background: rgb(229, 255, 79);
     padding: 15px;
     margin-bottom: 80px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 3px;
 }
-a.email:hover, a.email:focus {
-    background: rgba(255, 255, 255, 1.0);
+a.button:hover, a.button:focus {
+    background: #fff;
     color: #000;
 }
-a.email:active {
+a.button:active {
     background: #eee;
 }
+
 a.anchor {
     display: block;
     position: relative;
@@ -82,14 +84,15 @@ h3 {
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
+    padding-bottom: 15px;
 }
 
-h3 {
-    font-size: 20px;
+h4 {
+    font-size: 18px;
     font-weight: bold;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
 }
-
 
 p {
     font-size: 16px;
@@ -102,18 +105,23 @@ hr {
     margin-bottom: 30px;
 }
 
-
 #intro {
     margin-top: 100px;
-    margin-bottom: 10px;
+    text-align: center;
 }
+
+#intro > h1 {
+    text-transform: uppercase;
+} 
+
 
 #section-about,
 #section-ui-ux-work,
 #section-fine-art {
-    margin: 30px 10px;
-    padding: 40px 15px 30px 30px;
+   margin: 30px 0;
+   padding: 40px 15px 30px 30px;
 }
+
 #section-about {
     background: #333;
     color: #fff;
@@ -121,6 +129,11 @@ hr {
 }
 #section-about h1 {
     color: #fff;
+}
+
+#section-about h2 {
+    color: #fff;
+    text-transform: uppercase;
 }
 #about-container {
     display: grid;
@@ -139,12 +152,12 @@ hr {
 }
 #proficiencies-detail > * {
     background: #fff;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     color: #000;
 }
 #employment {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2/5;
 }
 #education {
     grid-column: 2;
