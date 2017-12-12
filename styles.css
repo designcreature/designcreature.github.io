@@ -110,6 +110,8 @@ hr {
     text-align: center;
 }
 
+#intro-text > * { max-width: 600px; }
+
 #intro > h1 {
     text-transform: uppercase;
 } 
@@ -210,4 +212,5 @@ hr {
     width: 100%;
     max-width: 800px; 
     margin-top: 30px;
+    margin-bottom: 0; 
 }
