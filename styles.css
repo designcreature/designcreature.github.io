@@ -81,14 +81,14 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     line-height: 30px;
     padding-bottom: 15px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -110,11 +110,18 @@ hr {
     text-align: center;
 }
 
-#intro-text > * { max-width: 600px; }
+#intro-text {
+    display: flex;
+    justify-content: center;
+}
+
+#intro-text > * {
+    max-width: 600px;
+ }
 
 #intro > h1 {
     text-transform: uppercase;
-} 
+}
 
 
 #section-about,
@@ -159,13 +166,13 @@ hr {
     padding: 20px;
     color: #000;
     background: linear-gradient(
-  	45deg, white 95%, #333 95%  
+  	45deg, white 95%, #333 95%
   );
 }
 #employment {
     grid-column: 1;
     grid-row: 2/5;
-}    
+}
 #education {
     grid-column: 2;
     grid-row: 2;
@@ -173,7 +180,7 @@ hr {
 #contact {
     grid-column: 2;
     grid-row: 3;
- 
+
 }
 .project {
     display: grid;
@@ -210,7 +217,7 @@ hr {
 }
 #section-fine-art > a > img {
     width: 100%;
-    max-width: 800px; 
+    max-width: 800px;
     margin-top: 30px;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
