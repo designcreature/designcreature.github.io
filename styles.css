@@ -34,7 +34,7 @@ nav a {
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
 }
 nav a:hover {
     color: rgb(255, 255, 255);
@@ -129,7 +129,6 @@ hr {
 #section-about,
 #section-ui-ux-work,
 #section-fine-art {
-   margin: 30px 0;
    padding: 60px 30px 30px 30px;
 }
 
@@ -145,8 +144,25 @@ hr {
 #section-about h2 {
     color: #fff;
     text-transform: uppercase;
-    padding-bottom: 20px;
 }
+
+#section-strengths {
+    color: #fff;
+    background: url(strengths.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+#section-strengths h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 #about-container {
     display: grid;
     grid-gap: 30px;
@@ -169,8 +185,7 @@ hr {
     padding: 20px;
     color: #000;
     background: linear-gradient(
-  	45deg, white 95%, #333 95%
-  );
+  	45deg, white 95%, #333 95%);
 }
 #employment {
     grid-column: 1;
@@ -183,8 +198,13 @@ hr {
 #contact {
     grid-column: 2;
     grid-row: 3;
-
 }
+
+#strengths {
+    grid-column: 2;
+    grid-row: 3;
+}
+
 .project {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -195,6 +215,7 @@ hr {
 }
 .project-role {
     grid-column: span 4;
+    padding-top: 30px;
 }
 #section-ui-ux-work {
     color: #000;
