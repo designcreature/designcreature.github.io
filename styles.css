@@ -43,14 +43,17 @@ a.email {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    background: rgba(255,255,255,0.7);
     padding: 15px;
     margin-bottom: 80px;
-    background: rgb(39, 78, 114);
+    font-size: 18px;
     font-weight: bold;
+    border-radius: 3px;
 }
 a.email:hover, a.email:focus {
-    background: #ddd;
+    background: rgba(255, 255, 255, 1.0);
+    color: #000;
 }
 a.email:active {
     background: #eee;
