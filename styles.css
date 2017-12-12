@@ -225,6 +225,7 @@ hr {
 }
 #section-ui-ux-work a > img {
     width: 100%;
+    max-width: 600px;
 }
 .project + .project {
     margin-top: 30px;
