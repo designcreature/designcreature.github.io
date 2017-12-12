@@ -34,8 +34,8 @@ nav a {
     color: #000;
 }
 nav a:hover {
-    color: #999;
-    background: #ddd;
+    color: rgb(255, 255, 255);
+    background: #000;
 }
 a.email {
     grid-column: 6 / 8;
@@ -71,22 +71,26 @@ h1 {
 h2 {
     font-size: 33px;
     font-weight: 100;
+    padding-bottom: 20px;
 }
 
 h3 {
     font-size: 20px;
     font-weight: bold;
+    line-height: 30px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 
 p {
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 30px;
 }
 
 
@@ -102,7 +106,7 @@ p {
     padding: 40px 15px 30px 30px;
 }
 #section-about {
-    background: #000;
+    background: rgb(31, 31, 31);
     color: #fff;
     margin-top: 0;
 }
@@ -176,5 +180,6 @@ p {
 }
 #section-fine-art > a > img {
     width: 100%;
-    max-width: 800px;
+    max-width: 800px; 
+    margin-top: 30px;
 }
