@@ -121,12 +121,19 @@ hr {
     max-width: 600px;
  }
 
-#intro > h1 {
+#intro > h1, #intro > h2 {
     text-transform: uppercase;
+    display: inline-block;
+    font-size: 45px;
 }
 
+#intro > h2::before {
+    content: '  |  ';
+    color: #fff;
+}
 
 #section-about,
+#section-strengths,
 #section-ui-ux-work,
 #section-fine-art {
    padding: 60px 30px 30px 30px;
@@ -151,8 +158,6 @@ hr {
     background: url(strengths.jpg);
     background-size: cover;
     width: 100%;
-    padding-bottom: 20px;
-    padding-top: 35px;
     text-align: center;
 }
 
@@ -250,10 +255,10 @@ hr {
 #section-ui-ux-work {
     color: #000;
 }
-#section-ui-ux-work a {
+.project a {
     grid-column: span 6;
 }
-#section-ui-ux-work a > img {
+.project a > img {
     width: 100%;
     max-width: 600px;
 }
@@ -275,4 +280,47 @@ hr {
     max-width: 800px;
     margin-top: 30px;
     margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header a.button {
+        width: 50%;
+    }
+
+    #intro > h1, #intro > h2 {
+        display: block;
+    }
+
+    #intro > h2::before {
+        content: none;
+    }
+
+    #about-container, #proficiencies-detail {
+        grid-template-columns: 1fr;
+    }
+
+    #proficiencies, #employment, #education, #contact {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    .project {
+        grid-template-columns: 1fr;
+    }
+
+    .project > *, .project a {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    .project-role {
+        padding-top: 0;
+    }
 }
