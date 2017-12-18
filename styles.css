@@ -235,7 +235,7 @@ hr {
 	display: none;
 
 	/** Position and style */
-	position: fixed;
+	position: absolute;
 	z-index: 999;
 	width: 100%;
 	height: 100%;
@@ -247,8 +247,8 @@ hr {
 
 .lightbox img {
 	/** Pad the lightbox image */
-	max-width: 90%;
-	max-height: 80%;
+	max-width: 100%;
+	max-height: 100%;
 	margin-top: 2%;
 }
 
@@ -272,11 +272,20 @@ hr {
     grid-column: span 4;
     padding-top: 30px;
 }
+
 #section-ui-ux-work {
     color: #000;
 }
+
 .project a {
     grid-column: span 6;
+}
+
+.project img {
+width: 100%;
+max-width: 600px;
+grid-column: span 6;
+
 }
 .project a > img {
     width: 100%;
@@ -285,6 +294,7 @@ hr {
 .project + .project {
     margin-top: 30px;
 }
+
 #section-fine-art {
     background: #333;
     color: #fff;
