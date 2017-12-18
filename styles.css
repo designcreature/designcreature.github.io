@@ -37,7 +37,7 @@ nav a {
     font-weight: 600;
 }
 nav a:hover {
-    color: rgb(255, 255, 255);
+    color: #fff;
     background: #000;
 }
 a.button{
@@ -47,15 +47,15 @@ a.button{
     color: #fff;
     background: #00a99d;
     padding: 15px;
-    width: 215px;
     margin-bottom: 80px;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     border-radius: 3px;
+     letter-spacing: 1px;
 }
 a.button:hover, a.button:focus a.button:visited {
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #FFF;
 }
 a.button:active {
     background: #eee;
@@ -105,9 +105,18 @@ h4 {
     padding-bottom: 30px;
 }
 
+h5 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+}
+
 p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     padding-bottom: 10px;
     max-width: 700px;
 }
@@ -129,6 +138,7 @@ hr {
 
 #intro-text > * {
     max-width: 600px;
+    line-height: 24px;
  }
 
 #intro > h1, #intro > h2 {
