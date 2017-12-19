@@ -69,12 +69,12 @@ a.anchor {
 }
 
 a {
- color: #018880; 
+ color: #018880;
  font-weight: 500;
 }
 
 a:visited {
- color: #018880; 
+ color: #018880;
  font-weight: 500;
 }
 
@@ -305,7 +305,7 @@ grid-column: span 6;
 #section-fine-art > a {
     width: 100%;
 }
-#section-fine-art > a > img {
+#section-fine-art > img {
     width: 100%;
     max-width: 800px;
     margin-top: 30px;
