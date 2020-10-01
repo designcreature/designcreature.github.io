@@ -133,7 +133,7 @@ hr {
 
 #intro-text {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #intro-text > * {
