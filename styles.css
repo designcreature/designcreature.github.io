@@ -140,6 +140,7 @@ hr {
 #intro-text > * {
     max-width: 600px;
     line-height: 24px;
+    color: #fff;
  }
 
 #intro > h1, #intro > h2 {
@@ -149,10 +150,6 @@ hr {
     color: #fff;
 }
 
-#intro > h2::before {
-    content: '  |  ';
-    color: #fff;
-}
 
 #section-about,
 #section-strengths,
