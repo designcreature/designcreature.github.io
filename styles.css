@@ -41,7 +41,7 @@ nav a:hover {
     background: #000;
 }
 a.button{
-    grid-column: 3 / 8;
+    grid-column: 6 / 8;
     text-align: center;
     text-decoration: none;
     color: #fff;
