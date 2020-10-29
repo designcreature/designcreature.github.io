@@ -41,7 +41,7 @@ nav a:hover {
     background: #000;
 }
 a.button{
-    grid-column: 6 / 8;
+    grid-column: 3 / 8;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -54,7 +54,7 @@ a.button{
      letter-spacing: 1px;
 }
 a.button:hover, a.button:focus a.button:visited {
-    background: #000;
+    background: #49494a;
     color: #FFF;
 }
 a.button:active {
