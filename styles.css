@@ -18,7 +18,7 @@ header {
     grid-gap: 30px;
 }
 header > * {
-    grid-column: 3 / 11;
+    grid-column: 2 / 11;
 }
 nav {
     position: fixed;
