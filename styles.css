@@ -87,7 +87,7 @@ h1 {
 h2 {
     font-size: 37px;
     font-weight: 100;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -102,15 +102,15 @@ h4 {
     font-weight: 300;
     text-transform: uppercase;
     line-height: 26px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 h5 {
     font-size: 19px;
     font-weight: 600;
     line-height: 30px;
-    padding-bottom: 5px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 0px;
 }
 }
 
