@@ -18,14 +18,14 @@ header {
     grid-gap: 30px;
 }
 header > * {
-    grid-column: 2 / 11;
+    grid-column: 3 / 11;
 }
 nav {
     position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
-    background: #f9f9f9;
+    background: #fff;
 }
 nav > * {
     padding: 10px;
@@ -54,7 +54,7 @@ a.button{
      letter-spacing: 1px;
 }
 a.button:hover, a.button:focus a.button:visited {
-    background: #49494a;
+    background: #000;
     color: #FFF;
 }
 a.button:active {
@@ -79,55 +79,46 @@ a:visited {
 }
 
 h1 {
-    font-size: 65px;
-    font-weight: 300;
-    padding-bottom: 0px;
+    font-size: 45px;
+    font-weight: 100;
+    padding-bottom: 15px;
 }
 
 h2 {
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 37px;
+    font-weight: 100;
     padding-bottom: 20px;
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 26px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 h5 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
     line-height: 30px;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-
-h6 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding-bottom: 30px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
 }
 
 p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 30px;
     padding-bottom: 10px;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 hr {
@@ -147,10 +138,17 @@ hr {
 }
 
 #intro-text > * {
-    max-width: 500px;
+    max-width: 400px;
     line-height: 24px;
     color: #fff;
  }
+
+#intro > h1, #intro > h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 45px;
+    color: #fff;
+}
 
 
 #section-about,
@@ -182,8 +180,9 @@ hr {
     text-align: center;
 }
 
-#section-strengths h4 {
+#section-strengths h2 {
     color: #fff;
+    font-size: 22px;
     font-weight: 300;
     text-transform: uppercase;
 }
