@@ -152,11 +152,6 @@ hr {
     color: #fff;
  }
 
-#intro > h1, #intro > h2 {
-    text-transform: uppercase;
-    color: #fff;
-}
-
 
 #section-about,
 #section-strengths,
@@ -187,7 +182,7 @@ hr {
     text-align: center;
 }
 
-#section-strengths h2 {
+#section-strengths h4 {
     color: #fff;
     font-weight: 300;
     text-transform: uppercase;
