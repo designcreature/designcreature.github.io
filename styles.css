@@ -41,7 +41,7 @@ nav a:hover {
     background: #000;
 }
 a.button{
-    grid-column: 6 / 8;
+    grid-column: 3 / 5;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -81,20 +81,20 @@ a:visited {
 h1 {
     font-size: 45px;
     font-weight: 100;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-size: 37px;
     font-weight: 100;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 22px;
     font-weight: 500;
     line-height: 30px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 h4 {
@@ -102,16 +102,15 @@ h4 {
     font-weight: 300;
     text-transform: uppercase;
     line-height: 26px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h5 {
     font-size: 19px;
     font-weight: 600;
     line-height: 30px;
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 p {
@@ -138,16 +137,24 @@ hr {
 }
 
 #intro-text > * {
-    max-width: 400px;
+    max-width: 525px;
     line-height: 24px;
     color: #fff;
+    font-weight: 500;
  }
 
 #intro > h1, #intro > h2 {
     text-transform: uppercase;
-    display: inline-block;
-    font-size: 45px;
     color: #fff;
+}
+
+#intro > h1 {
+    font-size: 65px;
+    margin-bottom: -5px;
+}
+
+#intro > h2 {
+    font-size: 45px;
 }
 
 
